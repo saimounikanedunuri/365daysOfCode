@@ -1,0 +1,13 @@
+In image processing, there are different phases.
+1.ACQUISITION– It could be as simple as being given an image which is in digital form. The main work involves: 
+a) Scaling 
+b) Color conversion(RGB to Gray or vice-versa) 
+2.IMAGE ENHANCEMENT– It is amongst the simplest and most appealing in areas of Image Processing it is also used to extract some hidden details from an image and is subjective. 
+3.IMAGE RESTORATION– It also deals with appealing of an image but it is objective(Restoration is based on mathematical or probabilistic model or image degradation). 
+4.COLOR IMAGE PROCESSING– It deals with pseudocolor and full color image processing color models are applicable to digital image processing. 
+5.WAVELETS AND MULTI-RESOLUTION PROCESSING– It is foundation of representing images in various degrees. 
+6.IMAGE COMPRESSION-It involves in developing some functions to perform this operation. It mainly deals with image size or resolution. 
+7.MORPHOLOGICAL PROCESSING-It deals with tools for extracting image components that are useful in the representation & description of shape. 
+8.SEGMENTATION PROCEDURE-It includes partitioning an image into its constituent parts or objects. Autonomous segmentation is the most difficult task in Image Processing. 
+9.REPRESENTATION & DESCRIPTION-It follows output of segmentation stage, choosing a representation is only the part of solution for transforming raw data into processed data. 
+10.OBJECT DETECTION AND RECOGNITION-It is a process that assigns a label to an object based on its descriptor. 
