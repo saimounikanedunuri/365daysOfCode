@@ -1,0 +1,46 @@
+Open a particular image from a path:
+#img = Image.open(path)	 
+# On successful execution of this statement, 
+# an object of Image type is returned and stored in img variable) 
+
+try: 
+	img = Image.open(path) 
+except IOError: 
+	pass
+# Use the above statement within try block, as it can 
+# raise an IOError if file cannot be found, 
+# or image cannot be opened.
+
+
+Retrieve size of image: The instances of Image class that are created have many attributes, one of its useful attribute is size.
+from PIL import Image 
+
+filename = "image.png"
+with Image.open(filename) as image: 
+	width, height = image.size 
+#Image.size gives a 2-tuple and the width, height can be obtained 
+
+
+Some other attributes are: Image.width, Image.height, Image.format, Image.info etc.Save changes in image: To save any changes that you have made to the image file, we need to give path as well as image format.
+img.save(path, format)	 
+# format is optional, if no format is specified, 
+#it is determined from the filename extension
+
+Rotating an Image: The image rotation needs angle as parameter to get the image rotated.
+from PIL import Image 
+
+def main(): 
+	try: 
+		#Relative Path 
+		img = Image.open("picture.jpg") 
+		
+		#Angle given 
+		img = img.rotate(180) 
+		
+		#Saved in the same relative location 
+		img.save("rotated_picture.jpg") 
+	except IOError: 
+		pass
+
+if __name__ == "__main__": 
+	main()
