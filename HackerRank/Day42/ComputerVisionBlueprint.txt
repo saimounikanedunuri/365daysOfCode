@@ -1,0 +1,108 @@
+Workshop: Computer Vision Blueprint
+step1:
+4 object detection methods:
+1. by color
+Pros: 
+. simple to implement
+. Its reliable even with different shades of same color
+Cons:
+. the object you want to detect needs to have a unique color
+. you need to calibrate the detection for each color you want to detect
+
+2. by removing background
+Pros:
+. simple to implement
+. reliable as long as the objects have a high contrast with the background
+. (example, black objects on a white background)
+Cons:
+. background should be homogeneous
+. Sensitive to environmental changes
+
+3. by their movement
+Pros:
+. simple to implement, it doesnt require 
+. great to detect movements in front of the camera
+Cons:
+. Camera needs to be stable, so so the background doesnt change
+. it only works with videos and camera
+. the object needs to be moving
+
+4. detect any object with deep learning
+Pros:
+. the most reliable way to detect any object
+. it also detect the object category(ex. laptop, notebook, cup,..)
+. it works on any environment
+Cons:
+. requires longer time to prepare the detector
+. it might need a powerful hardware to run in realtime
+
+step2:
+identify any custom object with deep learning
+tools necessary:
+1. framework
+pytorch(maintained by facebook), tensorflow(by google), keras(independent), opencv(popular), darkner
+
+2. object detection model
+popular object detection models:
+2014 - R-CNN
+2016 - YOLO
+2016 - SSD
+2018 - YOLOv3
+2020 - YOLOv4 (best version for object detection)
+2021 - Scaled YOLOv4 (best version for object detection)
+
+the 3 phases to identify objects with DL:
+1. Prepare image dataset
+gathering different types of images related to object 
+different types, colors, sizes of object
+how many: depends on scenario
+Example of image dataset for 'helicopter'
+#how to take datasets will say
+
+2. image annotation
+#what software we are going to use will say
+example of manual annotation for 'camera'
+
+3. training
+example of training to detect 'helicopters'
+
+software used in 'helicopter' example:
+. makesense.ai
+.
+.
+
+step3:
+track your identified objects
+
+object detection vs object training
+
+how to track objects:
+
+step4:
+implement object detection & training together
+
+example: CC TV camera
+detect staff, customers
+detect good/damaged object scrolling - upside down, position is correct, damage in color
+animal count
+crop
+conveyor belt
+
+overview of this workshop:
+. The 4 steps to build a computer vision software to detect and track any object.
+
+. Got a clear guidelines about what object detection is and its different methods, about object training and how finally build own project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
