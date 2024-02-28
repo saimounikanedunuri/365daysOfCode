@@ -1,0 +1,40 @@
+#Word2Vec
+Embeddings are not hand crafted. Instead, they are learnt during neural network training
+
+1. take a fake problem
+2. solve it using neural network
+3. you get word embeddings as a side effect
+
+fake problem : find missing word in a sentence
+
+neural network
+
+back tracking
+back propagation
+
+Word2Vec is having one of below two techniques:
+1. continuous bag of words
+2. skip gram
+
+#Handling imbalanced dataset in machine learning 
+1. under sampling majority class
+2. over sampling minority class by duplication
+generate new samples from current sample by simply duplicating them
+3. over sampling minority class using SMOTE
+->generate synthetic examples using k nearest neighbors algorithm
+->SMOTE: synthetic minority over-sampling technique
+4. ensemble method
+majority vote
+5. focal loss
+it will penalize majority samples during loss calculation & give more weight to minority class samples
+
+examples of imbalanced classes:
+1. customer churn rate
+2. device failure
+3. cancer prediction
+
+logistic regression
+
+
+----Math, Statistics for data science, machine learning----
+#Cosine similarity, cosine distance
