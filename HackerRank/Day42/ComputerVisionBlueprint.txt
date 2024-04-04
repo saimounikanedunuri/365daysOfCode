@@ -92,17 +92,3 @@ overview of this workshop:
 . The 4 steps to build a computer vision software to detect and track any object.
 
 . Got a clear guidelines about what object detection is and its different methods, about object training and how finally build own project.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
