@@ -10,7 +10,6 @@ if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()
     data = bytes_data.decode("utf-8")
 
-    # Assuming 'file' and 'key' parameters for the rawToDf function
     file = 'whatsapp-chat-data.txt'  # Provide the name of your input file here or specify its path
     key = '12hr'  # Specify the key for splitting and formatting, could be '12hr', '24hr', or 'custom'
 
