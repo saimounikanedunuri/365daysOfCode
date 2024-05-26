@@ -39,7 +39,6 @@ coupon_code = {
     3: '30%'
 }
 
-
 @app.get("/get_coupon/{code}")
 async def get_items(code: int):
     return {'discount_amount': coupon_code.get(code)}
