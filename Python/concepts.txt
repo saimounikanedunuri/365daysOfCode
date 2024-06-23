@@ -1,0 +1,31 @@
+🔹 Function Space & Local Space: Understanding how variables are scoped within functions.
+
+🔹 Instance Variables & Class Variables: Learning the difference between variables that belong to an instance versus the class itself.
+
+🔹 Private Classes, Variables, and Methods: How to encapsulate data and restrict access to it.
+
+🔹 Abstraction: Simplifying complex reality by modeling classes appropriate to the problem.
+
+🔹 Lists vs Tuples: Knowing when to use mutable lists and immutable tuples.
+
+🔹 Getter and Setter Methods: Encapsulating the access to variables.
+
+🔹 List Comprehension: Creating lists in a more readable and concise way.
+
+🔹 Python Memory Allocation: How Python manages memory for variables and objects.
+
+🔹 Deep Copy vs Shallow Copy: Understanding the difference between copying objects deeply and shallowly.
+
+🔹 Lambda Functions: Writing small, anonymous functions for short-term use.
+
+🔹 Slicing: Extracting parts of lists and yes, slicing works with lists!
+
+🔹 Real-world Example of Tuples: Using tuples for fixed data, like coordinates (x, y).
+
+🔹 Garbage Collector: How Python automatically frees up unused memory.
+
+🔹 Dictionary Key Limitations: Understanding the constraints on what can be used as dictionary keys.
+
+🔹 Non-local Variables & Global Variables: Variables that exist outside the local function scope.
+
+🔹 One-liner Functions: Writing concise, single-line functions.
