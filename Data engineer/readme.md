@@ -12,6 +12,7 @@ Summary
 7. Overall Knowledge- Data Modeling, ETL Pipeline
 
 **Big data concepts:**
+
 🔍 What is Big Data?
 - 3 V's: Volume, Velocity, Variance
 - Use Cases: Netflix, Flipkart, Amazon, eBay
