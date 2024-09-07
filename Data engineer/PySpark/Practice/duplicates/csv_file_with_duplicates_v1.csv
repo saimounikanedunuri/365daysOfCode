@@ -1,0 +1,7 @@
+db_id,db_name,db_type
+12,Teradata,RDBMS
+14,Snowflake,CloudDB
+15,Vertica,RDBMS
+12,Teradata,RDBMS
+22,Mysql,RDBMS
+50,Snowflake,RDBMS
