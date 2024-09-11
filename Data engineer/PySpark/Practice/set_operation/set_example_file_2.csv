@@ -1,0 +1,7 @@
+db_id,db_name,db_type
+17,Oracle,RDBMS
+19,MongoDB,NOSQL
+21,SingleStore,RDBMS
+22,Mysql,RDBMS
+14,Snowflake,RDBMS
+17,Oracle,RDBMS
