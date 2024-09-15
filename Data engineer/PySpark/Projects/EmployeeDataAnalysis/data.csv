@@ -1,0 +1,9 @@
+id,name,age,department,salary,join_date
+1,John Doe,29,IT,70000,2020-01-15
+2,Jane Smith,34,HR,80000,2019-03-22
+3,Bob Johnson,,Finance,60000,2018-06-12
+4,Alice White,45,IT,,2017-08-07
+5,Chris Evans,23,HR,50000,2021-05-19
+6,,31,Finance,75000,2020-11-01
+7,Mary Brown,27,IT,72000,2018-09-30
+8,James Wilson,30,HR,85000,
