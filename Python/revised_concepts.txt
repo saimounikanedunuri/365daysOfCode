@@ -1,0 +1,4 @@
+-> Difference between list and tuple
+-> Difference between shallow copy and deep copy
+-> How memory is managed in Python
+-> What are built-in datatypes in python
