@@ -2,3 +2,12 @@
 -> Difference between shallow copy and deep copy
 -> How memory is managed in Python
 -> What are built-in datatypes in python
+-> How does Python handle variable scope?
+-> Explain inheritance, polymorphism, and encapsulation in Python with examples.
+-> What are magic methods in Python? Can you name a few and explain their use?
+-> How do you implement abstract classes in Python?
+-> Explain decorators and provide an example of how to use them
+-> What are generators and how do they differ from iterators?
+-> How does Python's Global Interpreter Lock (GIL) affect multi-threading?
+-> What are the differences between threading and multiprocessing in Python?
+-> Explain async and await in Python
