@@ -7,7 +7,7 @@ A unique ID for each script run helps in distinguishing individual executions, e
 
 ```python
 import uuid
-script_run_id = str(uuid.uuid4())  # Creates a unique identifier for each script run
+script_run_id = str(uuid.uuid4())   # Creates a unique identifier for each script run ```
 
 ## 2. Counting Active Files
 
