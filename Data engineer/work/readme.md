@@ -9,16 +9,19 @@ A unique ID for each script run helps in distinguishing individual executions, e
 import uuid
 script_run_id = str(uuid.uuid4()) ``` # Creates a unique identifier for each script run
 
-## 2. **Counting Active Files**
+## 2. Counting Active Files
+
 Tracking how many files are actively being processed at any time provides a quick snapshot of workflow progress, particularly helpful with large datasets.
 
 ```python
-global Active_Files_Count ```  # Track the number of files processed
+global Active_Files_Count  # Track the number of files processed
 
-## 3. **Metadata Tables**
+## 3. Metadata Tables
+
 Metadata tables store important information about datasets, including their origin, state, and transformation details. This helps ensure data quality and makes it easier to trace specific information about data sources and transformations.
 
-## 4. **Organized Logging Setup**
+## 4. Organized Logging Setup
+
 A structured logging setup captures all critical details from each script run, enabling real-time monitoring and providing a history for debugging and performance analysis.
 
 ```python
@@ -40,7 +43,8 @@ Timestamp: When each action occurs.
 Thread Name: Useful for scripts running multiple tasks.
 Message: Provides context for each action.
 
-## 5. **Recording Script Start Times**
+## 5. Recording Script Start Times
+
 Logging the script’s start time aids in performance analysis by highlighting the time taken for each phase of the data process.
 
 ```python
