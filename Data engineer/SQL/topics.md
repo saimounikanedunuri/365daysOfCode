@@ -45,4 +45,5 @@ Name the operator which is used in the query for appending two strings
 above took from geeksforgeeks
 
 https://www.youtube.com/watch?v=l8DCPaHc5TQ
+
 practiced above SQL 
