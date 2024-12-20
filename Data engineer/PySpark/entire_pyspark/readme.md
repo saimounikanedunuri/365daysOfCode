@@ -56,3 +56,26 @@ Explode
 . GroupBY
 
 . Collect_List
+. PIVOT
+. When-Otherwise
+. JOINS
+inner, left, anti
+
+. WINDOW FUNCTIONS
+ROW_NUMBER()
+RANK VS DENSE RANK
+Cumulative Sum
+
+. USER DEFINED FUNCTIONS (UDF)
+
+. DATA WRITING
+CSV
+APPEND
+Overwrite
+Error
+Ignore
+PARQUET
+TABLE
+
+. SPARK SQL
+ createTempView
